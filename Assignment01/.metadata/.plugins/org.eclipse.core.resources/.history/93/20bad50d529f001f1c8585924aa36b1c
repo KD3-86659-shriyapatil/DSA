@@ -1,0 +1,23 @@
+
+public class LinearSearch {
+	public static int linearSearch(int arr[]) {
+		int count=0;
+		for(int i=0;i<arr.length;i++) {
+//			count++;
+			for(int j=i+1;j<arr.length-1;j++) {
+				if(arr[i]==arr[j]) {
+					return i ;
+				}
+			}
+		}return -1;
+	}
+	public static void main(String[] args) {
+		int arr [] = {1,2,3,-1,2,1,0,4,-1,7,8};
+		
+		int index = linearSearch(arr);
+		System.out.println("first non repearing elements="+index);
+		}
+
+	}
+
+

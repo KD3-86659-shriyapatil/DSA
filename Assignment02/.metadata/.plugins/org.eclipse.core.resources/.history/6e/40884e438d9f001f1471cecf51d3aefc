@@ -1,0 +1,14 @@
+
+public class LinearQueue {
+	private int arr[];
+	private int front,rear;
+	private int SIZE;
+	
+	public LinearQueue(int size) {
+		SIZE =size;
+		arr=new arr[SIZE];
+		
+	}
+	
+	
+}

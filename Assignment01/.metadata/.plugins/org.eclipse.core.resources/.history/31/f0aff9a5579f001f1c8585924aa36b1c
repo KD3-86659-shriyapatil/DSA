@@ -1,0 +1,11 @@
+
+public class LinearSearch {
+     public static int linearSearch(int arr[],int key,int rank) {
+    	 fo()
+     }
+	public static void main(String[] args) {
+		
+
+	}
+
+}

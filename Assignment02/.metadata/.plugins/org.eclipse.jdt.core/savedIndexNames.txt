@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+D:\study\DS\Assignment02\.metadata\.plugins\org.eclipse.jdt.core
+4114742779.index
+2185678189.index
+458202327.index
+1991739143.index
+1865797976.index

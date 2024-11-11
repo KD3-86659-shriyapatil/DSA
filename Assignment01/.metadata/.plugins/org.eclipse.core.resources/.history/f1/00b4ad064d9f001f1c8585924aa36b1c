@@ -1,0 +1,30 @@
+
+public class LinearSearch {
+    public static int linearSearch(int arr[],int key,int n) {
+    	int count =0;
+    	
+    	for(int i=0;i<arr.length;i++) {
+    		if(arr[i]==key) {
+    		count ++;
+    		
+    		if(count == n) {
+    		return i;
+    		}
+    		}
+    	}return -1;
+    }
+	public static void main(String[] args) {
+		int arr[]= {1,2,5,4,5,6,3,8,5};
+		int key = 5;
+		int n = 3;
+		
+		int index= linearSearch(arr,key,n);
+			if(index == -1)
+				System.out.println("value not found");
+			else
+				System.out.println("the" +n+ "th occurrence of" + key+"is at index-"+index);
+		}
+
+	}
+
+
