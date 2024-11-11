@@ -1,0 +1,10 @@
+
+public class stack {
+  private int arr[];
+  private int top;
+  private final int SIZE;
+  
+  public stack() {
+	// TODO Auto-generated constructor stub
+}
+}

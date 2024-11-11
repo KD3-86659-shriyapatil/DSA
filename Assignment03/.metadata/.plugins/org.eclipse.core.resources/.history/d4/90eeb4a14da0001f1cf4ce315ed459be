@@ -1,0 +1,9 @@
+
+public class stack {
+	private int arr[];
+	private int top;
+	private fina; int SIZE;
+	
+	
+
+}
