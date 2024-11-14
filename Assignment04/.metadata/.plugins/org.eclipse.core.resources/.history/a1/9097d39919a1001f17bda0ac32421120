@@ -1,0 +1,47 @@
+package com.sunbeam;
+
+public class LinkedList {
+   static class Node{
+	   private int data;
+	   private Node next;
+	   
+	   public Node(int value) {
+		   data=value;
+		   next=null;
+	   }
+   }
+   private Node tail;
+   private int size;
+   public LinkedList() {
+	   tail=null;
+	   int size =0;
+   }
+   
+   public boolean isEmpty() {
+	   return  tail == null;
+   }
+   
+   public int size() {
+	   return size;
+   }
+   
+   public void addFirst(int value) {
+	   Node newnode = new Node(value);
+        if(isEmpty())
+        tail=newnode;
+        else {
+        	newnode.next=tail.next;
+        	tail.next=newnode;
+        }
+}
+   public void display() {
+	   if(isEmpty()) 
+	    return;
+	   Node trav = tail;
+	   System.out.println("List-");
+	   do {
+		   System.out.println(" "+trav.data);
+		   trav=trav.next;
+	   }while(trav!= )
+   }
+   }

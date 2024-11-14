@@ -1,0 +1,15 @@
+package com.sunbeam;
+
+public class QueueMain {
+
+	public static void main(String[] args) {
+		Queue q = new Queue();
+		
+		q.addFirst(40);
+		q.addFirst(30);
+		q.addFirst(20);
+		q.addFirst(10);
+
+	}
+
+}

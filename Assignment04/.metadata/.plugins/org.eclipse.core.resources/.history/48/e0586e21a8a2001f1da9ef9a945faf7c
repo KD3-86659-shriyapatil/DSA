@@ -1,0 +1,16 @@
+package com.sunbeam;
+
+public class StackMain {
+
+	public static void main(String[] args) {
+		Stack s = new Stack();
+		
+		s.psh(20);
+		s.push(10);
+		
+		s.deleteFirst();
+		
+		s.display();
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.sunbeam;
+
+public class LinkedList {
+   static class Node{
+	   private int data;
+	   private Node next;
+	   
+	   public Node(int value) {
+		   data=value;
+		   next=null;
+	   }
+   }
+   private Node head,tail;
+   private int size;
+   public LinkedList()
+}
