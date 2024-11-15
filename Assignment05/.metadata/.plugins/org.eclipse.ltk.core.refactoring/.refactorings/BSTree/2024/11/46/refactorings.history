@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.sunbeam&apos; to &apos;Question01/src&apos;&#x0D;&#x0A;- Original project: &apos;BSTree&apos;&#x0D;&#x0A;- Destination element: &apos;Question01/src&apos;&#x0D;&#x0A;- Original element: &apos;BSTree/src/com.sunbeam&apos;" description="Copy package" destination="=Question01/src" element1="/src&lt;com.sunbeam" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1731521037609" version="1.0"/>
+</session>
